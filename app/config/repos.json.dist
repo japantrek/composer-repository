@@ -1,0 +1,9 @@
+{
+	"name": "My Composer Repository",
+	"homepage": "http://composer.example.org",
+	"repositories": [],
+	"require-all": true,
+	"archive": {
+		"directory": "dist"
+	}
+}

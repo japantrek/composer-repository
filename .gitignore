@@ -1,0 +1,9 @@
+/app/config/repos.json
+/vendor/
+/bin/
+!/var/logs
+/var/logs/*
+!var/logs/.gitkeep
+!bin
+/bin/*
+!bin/.gitkeep
