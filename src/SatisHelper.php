@@ -39,10 +39,10 @@ class SatisHelper
         $base = dirname(__DIR__);
         $this->binaryPath = realpath($base.'/bin/satis');
 
-        if (!file_exists($base.'/app/config/repos.json')) {
+        if (!file_exists($base.'/config/repos.json')) {
             throw new \Exception('Satis configuration not found');
         }
-        $this->configPath = realpath($base.'/app/config/repos.json');
+        $this->configPath = realpath($base.'/config/repos.json');
         $this->webPath = realpath($base.'/web');
         $this->logsPath = realpath($base.'/var/logs');
     }
