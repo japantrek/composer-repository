@@ -1,4 +1,4 @@
-/app/config/repos.json
+/config/repos.json
 /vendor/
 /bin/
 !/var/logs
